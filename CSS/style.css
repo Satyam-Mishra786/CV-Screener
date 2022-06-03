@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    text-align: center;
+    width: 36%;
+    margin: auto;
+}
+
+.containerItem {
+    padding: 10px;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+
+.image {
+    width: 125px;
+    border-radius: 50%;
+}
+
+.nextBtn {
+    width: 100%;
+    background-color: rgb(104, 196, 227);
+    cursor: pointer;
+    color: rgb(27, 30, 33);
+    padding: 5px;
+    font-size: 14px;
+}
+
+.nextBtn:hover {
+    background-color: rgb(62, 186, 227);
+}
+
+@media screen and (max-width:500px) {
+    .header {
+        width: auto;
+    }
+
+    .container {
+        width: auto;
+    }
+}
